@@ -1,0 +1,6 @@
+[submodule "Dugsiiye-Js-Exercises"]
+	path = Dugsiiye-Js-Exercises
+	url = https://github.com/shiiqaalow/Dugsiiye-Js-Exercises.git
+[submodule "Nova-Serve01"]
+	path = Nova-Serve01
+	url = https://github.com/shiiqaalow/Nova-Serve01.git
