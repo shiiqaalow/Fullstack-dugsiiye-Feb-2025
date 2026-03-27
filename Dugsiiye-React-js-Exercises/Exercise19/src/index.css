@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Buda:wght@300&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Playwrite+DE+Grund+Guides&family=Playwrite+NZ+Guides&family=Poppins:wght@300&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+:root {
+  --primary: #9aa0ff;
+  --text-color: black;
+  --background: #28a59f;
+  --shadow: rgba(0, 0, 0, 0.15);
+  --lg-shadow: 5px 7px #858bdc;
+  --button: #3333e7;
+  --deleteBtn: #f01515;
+  --editBtn: #42f142;
+}
+
+.dark-mode {
+  --secondary: rgb(63, 59, 59);
+  --text-sec: #f1f1f1;
+  --button: #4a4ae6;
+  --deleteBtn: #ff5c5c;
+  --editBtn: #5aff5a;
+  --shadow1: rgba(255, 255, 255, 0.1);
+  --bg-shadow: #6b6fff;
+  --card-bg: #1e1e1e;
+}
+
+/* Apply variables to global styles */
+body {
+  background-color: var(--primary);
+  color: var(--text-color);
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+

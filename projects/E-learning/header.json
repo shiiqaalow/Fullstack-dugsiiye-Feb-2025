@@ -1,0 +1,60 @@
+{
+  "header": {
+    "nav": [
+      {
+        "logo": {
+          "hamburger": [
+            { "class": "bars" },
+            { "class": "bars" },
+            { "class": "bars" }
+          ],
+          "anchor": {"link": "#","text": "Dawood"}
+        },
+        "navLinks": {
+          "anchor": [
+            { "link": "#home", "text": "Home" },
+            { "link": "#courses", "text": "Courses" },
+            { "link": "#learn", "text": "Learn" },
+            { "link": "#cart", "text": "Cart" },
+            { "link": "#about", "text": "About" },
+            { "link": "#contact", "text": "Contact" }
+          ]
+        },
+        "navIcons": {
+          "button": {"icon": {"class": "fa fa-search"}},
+          "cartBox": {"icon": {"class": "fa-solid fa-bag-shopping","id": "cart-icon"},
+                      "span": {"class": "cart-count","text": 0}},
+
+          "user": {"icon": {"class": "fa-solid fa-user-circle user-icon"}},
+          "darkModeToggle": [
+            {"icon": {"class": "fa-solid fa-moon"}},
+            {"icon": {"class": "fa-solid fa-sun"}}
+          ]
+        }
+      }
+    ],
+    "searchContainer": {
+      "input": {"type": "text","class": "search-field","placeholder": "search Courses..."}
+    }
+  },
+  "mobileMenu": {
+    "links": {
+      "anchor": [
+        {"link": "#home","icon": { "class": "fa-solid fa-home" },"text": "Home"},
+        {"link": "#courses","icon": { "class": "fa-solid fa-pencil" },"text": "Courses"},
+        {"link": "#learn","icon": { "class": "fa-solid fa-book" },"text": "Learn"},
+        {"link": "#cart","icon": { "class": "fa-solid fa-shopping-cart" },"text": "Cart"},
+        {"link": "#about","icon": { "class": "fa-solid fa-file-pen" },"text": "About"},
+        {"link": "#contact","icon": { "class": "fa-solid fa-phone" },"text": "Contact"}
+      ]
+    }
+  },
+    "cart": {
+    "title": "Your Cart",
+    "total": {
+      "title": "Total",
+      "price": "$0"
+    },
+    "buttonText": "Proceed to Checkout"
+  }
+}

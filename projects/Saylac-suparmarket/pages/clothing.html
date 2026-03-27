@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clothing-page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/clothing.css">
+</head>
+
+<body cz-shortcut-listen="true">
+
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- header -->
+        <header>
+            <div class="top-banner container">
+                <div class="tell">
+                    <h3><i class="fa-solid fa-phone"></i> Tell: +27 678 920 087</h3>
+                </div>
+                <div class="user-choice">
+                    <li class="dropdown-1">
+                        <h3><a href="#"><i class="fa-regular fa-user"></i> My account</a></h3>
+                        <ul class="dropdown-menu">
+                            <li><a href="../pages/user-login.html" id="login">LOG IN</a></li>
+                            <li><a href="../pages/user-login.html" id="register">REGISTER</a></li>
+                        </ul>
+                    </li>
+                    <h3> <a href=""><i class="fa-solid fa-wallet"></i> My wishlist</a></h3>
+                    <select>
+                        <option value=""><img src="../assets/Web Images/icons8-first-flag-of-the-usa-48.png" alt="">
+                            $USD</option>
+                        <option value="">Sh-So.</option>
+                        <option value="">£uro</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="logo container">
+                <div class="logo">
+                    <div>
+                        <img src="../assets/Saylac Super Market Logo/Favicon.png" alt="logo icon">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Saylac</h1>
+                        <span>Super <span id="logo-last-name">Market</span></span>
+                    </div>
+                </div>
+
+                <!-- <div class="search-box"> -->
+                <div class="search-box1">
+                    <input class="input2" type="text" name="name" placeholder="Search for products...">
+                    <i id="i2" class="fa-solid fa-magnifying-glass"></i>
+                    <!-- </div> -->
+                </div>
+
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars" data-visible="true"></i>
+                    <i class="fa-solid fa-close" data-visible="false"></i>
+                </div>
+
+            </div>
+
+            <div class="search-box2 mobile-only">
+                <input type="text" name="name" placeholder="Search for products...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- </div> -->
+            </div>
+
+            <div class="mobile-menu" data-visible="false">
+                <nav class="navigations">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Clothing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../pages/men.html">Men</a></li>
+                            <li><a href="../pages/women.html">Women</a></li>
+                            <li><a href="../pages/kids.html">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../pages/Furniture.html">Furniture</a></li>
+                    <li><a href="../pages/Technology.html">Technology</a></li>
+                    <li><a href="../pages/Food and Grocery.html">Food and Grocery</a></li>
+                    <li><a href="../pages/Sports and Leisure.html">Sports and Leisure</a></li>
+                    <li><a href="../pages/Health and Beauty.html">Health and Beauty</a></li>
+                    <li><a href="../pages/Toys.html">Toys</a></li>
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>+3</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="clothing">
+                <div class="clothing-hero">
+                    <img src="../assets/Web Images/Clothing_Banner_7-1_1_1950x_1_.jpg" alt="">
+                    <div class="clothing-promo">
+                        <h1>Sales Off Up To </h1>
+                        <span id="span">70%</span>
+                    </div>
+                    <div class="arrivals">
+                        <p>SS 2025 New Arrivals</p>
+                        <button class="btn">Click here </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clothing-banners container">
+
+                <div class="dresses">
+                    <img src="../assets/Web Images/cate_2-122x122.png" alt="">
+                    <h2>Dresses</h2>
+                </div>
+
+                <div class="tops">
+                    <img src="../assets/Web Images/cate_3-122x122.png" alt="">
+                    <h2>Tops</h2>
+                </div>
+
+                <div class="shorts">
+                    <img src="../assets/Web Images/cate_4-1-122x122.png" alt="">
+                    <h2>Shorts</h2>
+                </div>
+
+                <div class="men">
+                    <img src="../assets/Web Images/cate_1-122x122.png" alt="">
+                    <h2>Men</h2>
+                </div>
+
+                <div class="accessories">
+                    <img src="../assets/Web Images/cate_4-122x122.png" alt="">
+                    <h2>Accessories</h2>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="Exclusive Products container">
+                <div class="Exclusive-products-header">
+                    <h1>Exclusive Products </h1>
+                </div>
+            </div>
+            <div class="clothing-collection container">
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/Blue Casual Check Shirt 2.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 9.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/Black Dress For Woman.jpeg" alt="">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Black dress for Women</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/Lether Gray Tuxedo.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Leather Gray Tuxedo</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 24.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/White Black Line Dress 1.jpeg" alt="">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>White and Black Line</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/Blue Casual Check Shirt.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 14.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/White Black Line Dress 3.jpeg" alt="">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>White and Black Line</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/s9TrhBH0-2.jpg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>White Leather</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 19.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/Flounce.jpg" alt="" id="Karpell-img">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Flounce</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 9.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/Originals California.jpg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Originals California</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 12.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/41noohmZcQL.jpg" alt="" id="Karpell-img">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Black and White Dress</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 24.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/Levis Neck Ringer 3.jpg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Levis Neck Ringer</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 19.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/41-OWWPszbL.jpg" alt="" id="Karpell-img">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p> White line Dress</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Men/Blue Casual Check Shirt 1.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Red and Black shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 8.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="../assets/Product Images/Clothing/Women/Karpell.jpg" alt="" id="Karpell-img">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Karpell</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="https://media.istockphoto.com/id/455586761/photo/confident-businessman-portrait-isolated.jpg?s=612x612&w=0&k=20&c=hSjstECxWGpNPNuaWbCZheXoVwP9p0g-wOokwrFMmFA="
+                        alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Suit Top</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 54.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="https://media.istockphoto.com/id/465479132/photo/business-woman-headshot-portrait.jpg?s=612x612&w=0&k=20&c=Otk0arj3yP8SWds4I_zgSxMdqyTZkuJjl6XCU0jNVtI="
+                        alt="" id="Karpell-img">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Black with DotsTop</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 49.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="brands container">
+                <div class="brand-images gucci">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.16-Scmjz65TaR1cCp5KSgAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images channel">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.fx1iW1h0TUeFQ4uEDn38JAHaE5&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images prada">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.Ha3rk6pruhA2uzJ5p-JUQgHaCU&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images louis">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.lNzAW2sQK5LUMHkRc3xPBgHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images zara">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.bLJ7lnRyeBuj3qxZG7acNgHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images express">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.0eX6imKPpPs1TouVAyd2kQHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images levis">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.qs7866MWwGzK-gi5C3o1VgHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images mulberry">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hyyhGW5KJgElR6nicCJ2NAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images mulberry">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hyyhGW5KJgElR6nicCJ2NAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images mulberry">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hyyhGW5KJgElR6nicCJ2NAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images mulberry">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hyyhGW5KJgElR6nicCJ2NAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images mulberry">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hyyhGW5KJgElR6nicCJ2NAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images mulberry">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hyyhGW5KJgElR6nicCJ2NAHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images zara">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.bLJ7lnRyeBuj3qxZG7acNgHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images express">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.0eX6imKPpPs1TouVAyd2kQHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="brand-images levis">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.qs7866MWwGzK-gi5C3o1VgHaEK&pid=Api&P=0&h=180" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <footer class="footer container">
+                <div class="footer-logo">
+                    <div>
+                        <img src="../assets/Saylac Super Market Logo/Favicon.png" alt="logo icon">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Saylac</h1>
+                        <span>Super <span id="logo-last-name">Market</span></span>
+
+                    </div>
+                </div>
+
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h4>Saylc-Supermarket</h4>
+                        <p>🎉Discover Deals That Make Your Day!
+                            Great value meets unbeatable quality. Enjoy daily deals, seasonal promotions, and exciting
+                            discounts across every department. Whether you're shopping for your home, your health, or
+                            your hobbies, we help you save while you shop smart.</p>
+                    </div>
+
+                    <div class="footer-column quick-links">
+
+                        <ul>
+                            <h4>Quick Links</h4>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="#">Clothing</a></li>
+                            <li><a href="../pages/Furniture.html">Furniture</a></li>
+                            <li><a href="../pages/Technology.html">Technology</a></li>
+                            <li><a href="../pages/Food and Grocery.html">Food and Grocery</a></li>
+                            <li><a href="../pages/Sports and Leisure.html">Sports and Leisure</a></li>
+                            <li><a href="../pages/Health and Beauty.html">Health and Beauty</a></li>
+                            <li><a href="../pages/Toys.html">Toys</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contact Us</h4>
+                        <p><i class="fa-regular fa-envelope"></i> <a href=""> Email: Shiiqaalow99@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i> Phone: +27-67-892-0087</p>
+                        <p><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/JhB38vjA6cJCB9a5A"
+                                target="_blank""> Location: Capetown, South-Africa</a></p>
+          </div>
+      
+          <div class=" footer-column">
+                                <h4>Follow Us</h4>
+                                <div class="social-icons">
+                                    <div class="socials">
+                                        <a href="https://www.facebook.com/xidigafc.hayaan" target="_blank"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <h5>A.M shiiqaalow</h5>
+                                    </div>
+
+
+                                    <div class="socials">
+                                        <a href="https://x.com/shiiqaalow99?t=o5jOvaN6fw8vGCMORseznA&s=09"
+                                            target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <h5>@shiiqaalow</h5>
+                                    </div>
+
+                                    <div class="socials">
+                                        <a href="https://web.whatsapp.com/shiiqaalow" target="_blank"><i
+                                                class="fa-brands fa-whatsapp"></i></a>
+                                        <h5>Shiiqaalow</h5>
+                                    </div>
+
+                                    <div class="socials">
+                                        <a href="https://www.instagram.com/kaptan.shiiqalow/" target="_blank"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                        <h5>kaptain.shiiqaalow</h5>
+                                    </div>
+
+                                </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 <img src="../assets/Saylac Super Market Logo/Favicon.png" alt=""> Saylac Supermarket.
+                        All rights reserved.</p>
+                </div>
+            </footer>
+
+        </section>
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const mobileMenu = document.querySelector(".mobile-menu");
+            const icons = document.querySelectorAll("i");
+
+            hamburger.addEventListener("click", function (event) {
+                const isVisible = mobileMenu.getAttribute("data-visible");
+                if (isVisible == "true") {
+                    // qari hiding
+                    mobileMenu.setAttribute("data-visible", "false");
+                    icons[0].setAttribute("data-visible", "true");
+                    icons[1].setAttribute("data-visible", "false");
+                } else if (isVisible == "false") {
+                    // soo bandhig showing
+                    mobileMenu.setAttribute("data-visible", "true");
+                    icons[0].setAttribute("data-visible", "false");
+                    icons[1].setAttribute("data-visible", "true");
+                }
+            });
+        </script>
+</body>
+
+</html>

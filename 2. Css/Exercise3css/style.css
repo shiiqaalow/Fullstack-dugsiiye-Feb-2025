@@ -1,0 +1,72 @@
+.header {
+    background-color: #007bff; /* Blue */
+    color: #ffffff; /* White */
+}
+
+.about, .services {
+    background-color: #f8f9fa; /* Light gray */
+    color: #343a40; /* Dark gray */
+}
+
+.service {
+    background-color: #28a745; /* Green */
+    color: #ffffff; /* White */
+}
+
+.footer {
+    background-color: #343a40; /* Dark gray */
+    color: #f8f9fa; /* Light gray */
+}
+
+.testimonials {
+    color:rgb(197, 22, 150);
+    background-color:#ada0e7;
+}
+
+.clienttittle1 {
+    padding: 10px;
+    color:hsl(195, 78%, 95%);
+    background-color: #868a82;
+
+}
+
+.clientp2 {
+    padding: 10px;
+    color:hsl(195, 78%, 95%);
+    background-color: #868a82;
+}
+
+.clienttittle1 {
+    padding: 10px;
+    color:#b15892;
+    background-color: yellowgreen;
+}
+
+.clienttittle2 {
+    padding: 10px;
+    color:tomato;
+    background-color: rgba(88, 52, 52, 0.237);
+}
+
+.clienttittle3 {
+    padding: 10px;
+    color:hsl(195, 78%, 95%);
+    background-color: #8a5310;
+}
+
+.clientp2 {
+    padding: 10px;
+    color:rgb(64, 13, 112);
+    background-color: #21d4de;
+}
+
+.clientp3 {
+    padding: 10px;
+    color:rgb(64, 13, 112);
+    background-color: #b15892;
+}
+
+*{
+text-align: center;
+padding: 5px;
+}

@@ -1,0 +1,30 @@
+.quote {
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+#quote1 {
+    border:3px,solid,blue;
+    background-color: black;
+    color: white;
+    text-align:justify;
+}
+
+#quote2 {
+    border:3px,dotted,rgb(234, 18, 50);
+    background-color: aqua;
+    text-align: center;
+}
+
+#quote3 {
+    border:3px,dashed,rgb(180, 8, 14);
+    background-color: springgreen;
+    text-align: right;
+}
+
+#quote4 {
+    border:3px,double,yellow;
+    background-color: sienna;
+    text-align: left;
+}

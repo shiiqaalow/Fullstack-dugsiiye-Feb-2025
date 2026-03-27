@@ -1,0 +1,33 @@
+.profile-card {
+    width: 342px;
+    height: 440px;
+    background-color: aquamarine;
+    background-image: url(eveninig.png);
+    
+
+}
+
+.profile-image {
+    width: 300px;
+    height: 400px;  
+    padding: 20px;
+    border-radius: 5;
+}
+
+.user-name {
+    margin: -100px 120px;
+    color: white;
+    position: absolute;
+    font-family: cursive;
+    font-size: larger;    
+}
+
+.user-location {
+    margin: -80px 80px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: cursive;
+    padding-top: 10px;
+    font-size: large;
+    
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-inline: auto;
+
+}
+body {
+}
+
+img {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    min-width: 200px;
+    width: calc(25% - 20px);
+    border-radius: 7px;
+    box-shadow: 0 4px 9px rgba(0,0,0,0.2);
+    text-align: center;
+
+}
+
+
+
+
+@media (min-width:680px) {
+    .card {
+        width: calc(50% - 20px)
+    }
+}
+
+@media (max-width:320px) {
+    .card {
+        width: 100%;
+    }
+    
+}

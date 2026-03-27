@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body cz-shortcut-listen="true">
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- header -->
+        <header>
+            <div class="top-banner container">
+                <div class="tell">
+                    <h3><i class="fa-solid fa-phone"></i> Tell: +27 678 920 087</h3>
+                </div>
+                <div class="user-choice">
+                    <li class="dropdown-1">
+                        <h3><a href="#"><i class="fa-regular fa-user"></i> My account</a></h3>
+                        <ul class="dropdown-menu">
+                            <li><a href="./pages/user-login.html" id="login">LOG IN</a></li>
+                            <li><a href="./pages/user-login.html" id="register">REGISTER</a></li>
+                        </ul>
+                    </li>
+                    <h3> <a href=""><i class="fa-solid fa-wallet"></i> My wishlist</a></h3>
+                    <select>
+                        <option value=""><img src="../assets/Web Images/icons8-first-flag-of-the-usa-48.png" alt="">
+                            $USD</option>
+                        <option value="">Sh-So.</option>
+                        <option value="">£uro</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="logo container">
+                <div class="logo">
+                    <div>
+                        <img src="./assets/Saylac Super Market Logo/Favicon.png" alt="logo icon">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Saylac</h1>
+                        <span>Super <span id="logo-last-name">Market</span></span>
+                    </div>
+                </div>
+
+                <!-- <div class="search-box"> -->
+                <div class="search-box1">
+                    <input type="text" name="name" placeholder="Search for products..." fdprocessedid="e6trzb">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars" data-visible="true"></i>
+                    <i class="fa-solid fa-close" data-visible="false"></i>
+                </div>
+
+            </div>
+
+            <div class="search-box2 mobile-only">
+                <input type="text" name="name" placeholder="Search for products...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- </div> -->
+            </div>
+
+            <div class="mobile-menu" data-visible="false">
+                <nav class="navigations">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./pages/clothing.html">Clothing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./pages/men.html">Men</a></li>
+                            <li><a href="./pages/women.html">Women</a></li>
+                            <li><a href="./pages/kids.html">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./pages/Furniture.html">Furniture</a></li>
+                    <li><a href="./pages/Technology.html">Technology</a></li>
+                    <li><a href="./pages/Food and Grocery.html">Food and Grocery</a></li>
+                    <li><a href="./pages/Sports and Leisure.html">Sports and Leisure</a></li>
+                    <li><a href="./pages/Health and Beauty.html">Health and Beauty</a></li>
+                    <li><a href="./pages/Toys.html">Toys</a></li>
+                    
+                    <div class="cart">
+                        <a href="./pages/user-login.html" class="cart-btn" onclick="openPop()">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        <span>+3</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="home--hero">
+                <div class="hero-img">
+                    <img src="./assets/Web Images/Home-6.jpeg" alt="hero-banner">
+                    <h1>Welcome To<br> Saylac <span>SuperMarket</span></h1>
+                </div>
+            </div>
+        </section>
+
+        <div class="promotion--tittle container">
+            <h1>Promotions</h1>
+            <i class="fa-solid fa-laptop"></i>
+        </div>
+
+        <section>
+            <div class="promotions container">
+                <div class="promo-1">
+                    <img src="./assets/Web Images/Promo-3.jpeg" alt="">
+                    <div class="promo-tittle-1">
+                        <h2>20% off On<br>All Laptops</h2>
+                        <p>Subscribe and get offers</p>
+                        <button class="btn"><a href="#">Subscribe</a></button>
+                    </div>
+
+                </div>
+
+                <div class="promo-2">
+                    <img src="./assets/Web Images/Promo-2.jpeg" alt="">
+                    <div class="promo-tittle-2">
+                        <h2>20% off On<br>All Laptops</h2>
+                        <p>Subscribe and get offers</p>
+                        <button class="btn"><a href="#">Subscribe</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="trending-header container">
+                <h1>Trending Products</h1>
+            </div>
+            <div class="trending-products container">
+                <div class="trending-items">
+                    <img src="./assets/Product Images/Furniture/sp-1.jpeg" alt="">
+                    <div class="trending-badge"><span>New</span></div>
+                    <div class="trending-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="trending-product-info">
+                        <p>Sleigh Chair For Single</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 14.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="trending-items">
+                    <img src="./assets/Product Images/Food and Grocery/nut-fruit-mixed-food_6372926-563x393.png" alt="">
+                    <div class="trending-badge"><span>New</span></div>
+                    <div class="trending-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="trending-product-info">
+                        <p>Mixed Nuts Nutrition</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 7.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="trending-items">
+                    <img src="./assets/Product Images/Health and Beauty/Dishacentrupr Jenghing Finibus Tan02-779x1000.jpg"
+                        alt="">
+                    <div class="trending-badge"><span>New</span></div>
+                    <div class="trending-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="trending-product-info">
+                        <p>Dischacentrupr Jenphing</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 34.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="trending-items">
+                    <img src="./assets/Product Images/Food and Grocery/s6-563x393.png" alt="">
+                    <div class="trending-badge"><span>New</span></div>
+                    <div class="trending-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="trending-product-info">
+                        <p>Hot Chilli Paper</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 10.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="promotion--tittle container">
+            <h1>Promotions</h1>
+            <i class="fa-solid fa-shirt"></i>
+        </div>
+
+
+        <section>
+            <div class="promotions container">
+                <div class="promo-1">
+                    <img src="https://media.istockphoto.com/id/1360648166/photo/classic-business-style-of-clothing.jpg?s=612x612&w=0&k=20&c=2jqW59J49elWzKqcWoNeGIDWg0YR1_H94F0rrzSBRK0="
+                        alt="">
+                    <div class="promo-tittle-1">
+                        <h2>Get Extra 20%<br> Discount</h2>
+                        <p>Subscribe and get offers</p>
+                        <button class="btn"><a href="#">Subscribe</a></button>
+                    </div>
+
+                </div>
+
+                <div class="promo-2">
+                    <img src="https://media.istockphoto.com/id/500510619/photo/part-of-womans-body.jpg?s=612x612&w=0&k=20&c=FfE5QK5RGcwpJLtHjtfqfifzsMfoU7dtYLUykP4hp2Y="
+                        alt="">
+                    <div class="promo-tittle-2">
+                        <h2>Get Extra 20%<br> Discount</h2>
+                        <p>Subscribe and get offers</p>
+                        <button class="btn"><a href="#">Subscribe</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="Womens-collection container">
+                <div class="Womens-collection-header container">
+                    <h1>Womens <span>Collection</span></h1>
+                </div>
+            </div>
+            <div class="Womens-collection container">
+                <div class="Womens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Women/White Black Line Dress 3.jpeg" alt="">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>White and Black Line</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Women/White Black Line Dress 1.jpeg" alt="">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>White and Black Line</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Womens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Women/Black Dress For Woman.jpeg" alt="">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Black dress for Women</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="Womens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Women/Karpell.jpg" alt="" id="Karpell-img">
+                    <div class="Womens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Womens-collection-info">
+                        <p>Karpell</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 29.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="mens-collection container">
+                <div class="mens-collection-header container">
+                    <h1>Men's <span>Collection</span></h1>
+                </div>
+            </div>
+            <div class="mens-collection container">
+                <div class="mens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Men/Blue Casual Check Shirt 1.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Red and Black shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 8.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Men/Blue Casual Check Shirt 2.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 9.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="mens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Men/Lether Gray Tuxedo.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Leather Gray Tuxedo</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 24.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="mens-collection-items">
+                    <img src="./assets/Product Images/Clothing/Men/Blue Casual Check Shirt.jpeg" alt="">
+                    <div class="mens-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="mens-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$14.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="furniture-hero">
+                <div class="furniture-promo">
+                    <span>NEW ARIVALS</span>
+                    <h1>Living furniture Your Love</h1>
+                    <h2>Sales Up To <span id="Discount">20% OFF</span></h2>
+                    <button class="btn">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="furniture-collection container">
+                <div class="furniture-collection-header container">
+                    <h1>Furniture <span>Collection</span></h1>
+                </div>
+            </div>
+            <div class="furniture-collection container">
+                <div class="furniture-collection-items">
+                    <img src="./assets/Product Images/Furniture/261-00411_detail_01_detroit-brown-faux-leather-bed.jpg"
+                        alt="">
+                    <div class="furniture-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="furniture-collection-info">
+                        <p>Red and Black shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 224.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="furniture-collection-items">
+                    <img src="./assets/Product Images/Furniture/534-00001_main-shot_01_gallway-corner-sofa-navy.jpg"
+                        alt="">
+                    <div class="furniture-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="furniture-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 209.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="furniture-collection-items">
+                    <img src="./assets/Product Images/Furniture/261-00411_main-shot_02_detroit-brown-faux-leather-bed.jpg"
+                        alt="">
+                    <div class="furniture-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="furniture-collection-info">
+                        <p>Leather Gray Tuxedo</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 109.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="furniture-collection-items">
+                    <img src="./assets/Product Images/Furniture/534-00001_main-shot_02_gallway-corner-sofa-navy.jpg"
+                        alt="">
+                    <div class="furniture-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="furnniture-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 189.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="Technology-collection container">
+                <div class="Technology-collection-header container">
+                    <h1>Technology <span>Collection</span></h1>
+                </div>
+            </div>
+            <div class="Technology-collection container">
+                <div class="Technology-collection-items">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.DAZvhmzO0sxCp-uWdJBEawHaFa&pid=Api&P=0&h=180" alt="">
+                    <div class="Technology-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Technology-collection-info">
+                        <p>Red and Black shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 189.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Technology-collection-items">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.FmW0kQSU1f_CwQRCFypzHAHaFS&pid=Api&P=0&h=180">
+                    <div class="Technology-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Technology-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 189.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="Technology-collection-items">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.E0HqFb3QUflcVW2tgRROUwHaHa&pid=Api&P=0&h=180">
+                    <div class="Technology-product-action">
+                        <button class="card-action-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+                    </div>
+                    <div class="Technology-collection-info">
+                        <p>Blue Casual Shirt</p>
+                    </div>
+                    <div class="product-rating">
+                        <div>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span>
+                                <span>$ 49.99</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="price-tag">
+                        <span><i class="fa-solid fa-plus"></i> <i class="fa-regular fa-heart"></i></span>
+                        <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="partner-companies">
+                    <div class="Partner-tittle">
+                        <h1>Our partner <span>Companies</span></h1>
+                    </div>
+                    <div class="Samsung-logo">
+                        <img src="./assets/Web Images/Companies Logo/Samsung.jpg" alt="">
+                    </div>
+
+                    <div class="Apple-logo">
+                        <img src="./assets/Web Images/Companies Logo/Apple.jpg" alt="">
+                    </div>
+
+                    <div class="Xiaomi-logo">
+                        <img src="./assets/Web Images/Companies Logo/Xiaomi.jpg" alt="">
+                    </div>
+
+                    <div class="JBL-logo">
+                        <img src="./assets/Web Images/Companies Logo/JBL.jpg" alt="">
+                    </div>
+
+                    <div class="Sony-logo">
+                        <img src="./assets/Web Images/Companies Logo/Sony.jpg" alt="">
+                    </div>
+
+                    <div class="Genius-logo">
+                        <img src="./assets/Web Images/Companies Logo/Genius.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="fruits">
+                <div class="fruits-hero">
+                    <img src="./assets/Web Images/Fruits-12_778ed8e7-49ae-494f-b4d2-296da347b42d.jpeg" alt="">
+                    <div class="fruits-tittle">
+                        <h1>Organic Fresh <span>Fruits</span><br>For Your Health</h1>
+                        <p>Organic fruits are a powerhouse of nutrients and a natural choice<br> for a healthier
+                            lifestyle. Grown without synthetic pesticides,<br> fertilizers, or GMOs, they retain their
+                            natural taste<br> and richness in vitamins, antioxidants, and fiber.<br></p>
+                        <button class="btn">SHOP NOW</button>
+                    </div>
+
+                </div>
+        </section>
+
+        <section>
+            <div class="top-categories container">
+                <div class="top-categories-header">
+                    <h1>Top Categories <span>This Week</span></h1>
+                </div>
+                <div class="categories">
+                    <h1>Apple</h1>
+                    <h1>Clothing</h1>
+                    <h1>Food and Grocery</h1>
+                    <h1>Furniture</h1>
+                    <h1>Health and Beauty</h1>
+                    <h1>men</h1>
+                    <h1>Shirts</h1>
+                    <h1>Sports and Leisure</h1>
+                    <h1>T-shirts</h1>
+                    <h1>Technology</h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="testimonials container">
+                <div class="testimonial-header">
+                    <h1>Testimonials</h1>
+                </div>
+                <div class="clients-tittle">
+                    <h1>Our Happy Customer Reviews</h1>
+                </div>
+                <div class="testimonial">
+
+                    <div class="testimonial-info">
+                        <div class="clients-pic">
+                            <img src="./assets/Web Images/mi photo.jpg" alt="">
+                        </div>
+
+                        <div class="clients-info">
+                            <div>
+                                <h1>shiiqaalow</h1>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="customer-massage">
+                            <p>"Shopping at Saylac Supermarket has been an amazing experience! The variety of products
+                                is outstanding—from fresh groceries to the latest tech gadgets, stylish clothing, and
+                                even salon services. The quality is always top-notch, and the customer service is
+                                exceptional. I love how easy it is to find everything I need in one place. Saylac
+                                Supermarket has truly become my go-to store for convenience and quality!"</p>
+                        </div>
+
+                        <div class="quote-rotate">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                        <div class="quote">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-info">
+                        <div class="clients-pic">
+                            <img src="./assets/Web Images/MC-Hamuuda img.webp" alt="">
+                        </div>
+
+                        <div class="clients-info">
+                            <div>
+                                <h1>Prof-Hamouda</h1>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="customer-massage">
+                            <p>"Saylac Supermarket never disappoints! The fresh produce section is always stocked with
+                                high-quality fruits and vegetables, and I appreciate the competitive prices. Whether I’m
+                                shopping for groceries or picking up household essentials, I know I can rely on Saylac
+                                for the best selection and service. Highly recommended!"
+                            <p>
+                        </div>
+
+                        <div class="quote-rotate">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                        <div class="quote">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-info">
+                        <div class="clients-pic">
+                            <img src="./assets/Web Images/MR-Sharafdiin img.webp" alt="">
+                        </div>
+
+                        <div class="clients-info">
+                            <div>
+                                <h1>Sharafadin</h1>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="customer-massage">
+                            <p>"What sets Saylac Supermarket apart is their excellent customer service. The staff is
+                                always friendly and willing to help, whether I’m shopping in-store or online. Plus,
+                                their salon services are a great bonus! I always leave feeling pampered and satisfied
+                                with my purchases.
+                            <p>
+                        </div>
+
+                        <div class="quote-rotate">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                        <div class="quote">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-info">
+                        <div class="clients-pic">
+                            <img src="./assets/Web Images/mi photo.jpg" alt="">
+                        </div>
+
+                        <div class="clients-info">
+                            <div>
+                                <h1>Eng-Haji</h1>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="customer-massage">
+                            <p>"I recently bought a few tech products from Saylac Supermarket, and I was impressed with
+                                their quality and pricing. The checkout process was seamless, and the delivery was right
+                                on time. It’s refreshing to find a store that truly values its customers. I’ll
+                                definitely be back!"
+                            <p>
+                        </div>
+
+                        <div class="quote-rotate">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                        <div class="quote">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-info">
+                        <div class="clients-pic">
+                            <img src="./assets/Web Images/Haboon Abdi.jpg" alt="">
+                        </div>
+
+                        <div class="clients-info">
+                            <div>
+                                <h1>Nasra-Deeq</h1>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="customer-massage">
+                            <p>"Saylac Supermarket has become my favorite place to shop. They always have great deals on
+                                clothing and home essentials, and I love the variety of products available. The store is
+                                well-organized, making shopping a breeze. Plus, their customer service is top-tier!"
+                            <p>
+                        </div>
+
+                        <div class="quote-rotate">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                        <div class="quote">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-info">
+                        <div class="clients-pic">
+                            <img src="./assets/Web Images/Safiyo Mohamed.jpg" alt="">
+                        </div>
+
+                        <div class="clients-info">
+                            <div>
+                                <h1> Hawa-Abdi</h1>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="customer-massage">
+                            <p>"From groceries to furniture, Saylac Supermarket has it all. I recently renovated my home
+                                and found stylish yet affordable furniture pieces here. The quality exceeded my
+                                expectations! I love that I can do all my shopping in one place while getting fantastic
+                                deals."
+                            <p>
+                        </div>
+
+                        <div class="quote-rotate">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                        <div class="quote">
+                            <img src="./assets/Web Images/quote-blue.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <footer class="footer container">
+                <div class="footer-logo">
+                    <div>
+                        <img src="./assets/Saylac Super Market Logo/Favicon.png" alt="logo icon">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Saylac</h1>
+                        <span>Super <span id="logo-last-name">Market</span></span>
+
+                    </div>
+                </div>
+
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h4>Saylc-Supermarket</h4>
+                        <p>🎉Discover Deals That Make Your Day!
+                            Great value meets unbeatable quality. Enjoy daily deals, seasonal promotions, and exciting
+                            discounts across every department. Whether you're shopping for your home, your health, or
+                            your hobbies, we help you save while you shop smart.</p>
+                    </div>
+
+                    <div class="footer-column quick-links">
+
+                        <ul>
+                            <h4>Quick Links</h4>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="./pages/clothing.html">Clothing</a></li>
+                            <li><a href="./pages/Furniture.html">Furniture</a></li>
+                            <li><a href="./pages/Technology.html">Technology</a></li>
+                            <li><a href="./pages/Food and Grocery.html">Food and Grocery</a></li>
+                            <li><a href="./pages/Sports and Leisure.html">Sports and Leisure</a></li>
+                            <li><a href="./pages/Health and Beauty.html">Health and Beauty</a></li>
+                            <li><a href="./pages/Toys.html">Toys</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contact Us</h4>
+                        <p><i class="fa-regular fa-envelope"></i> <a href=""> Email: Shiiqaalow99@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i> Phone: +27-67-892-0087</p>
+                        <p><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/JhB38vjA6cJCB9a5A"
+                                target="_blank""> Location: Capetown, South-Africa</a></p>
+          </div>
+      
+          <div class=" footer-column">
+                                <h4>Follow Us</h4>
+                                <div class="social-icons">
+                                    <div class="socials">
+                                        <a href="https://www.facebook.com/xidigafc.hayaan" target="_blank"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <h5>A.M shiiqaalow</h5>
+                                    </div>
+
+
+                                    <div class="socials">
+                                        <a href="https://x.com/shiiqaalow99?t=o5jOvaN6fw8vGCMORseznA&s=09"
+                                            target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <h5>@shiiqaalow</h5>
+                                    </div>
+
+                                    <div class="socials">
+                                        <a href="https://web.whatsapp.com/shiiqaalow" target="_blank"><i
+                                                class="fa-brands fa-whatsapp"></i></a>
+                                        <h5>Shiiqaalow</h5>
+                                    </div>
+
+                                    <div class="socials">
+                                        <a href="https://www.instagram.com/kaptan.shiiqalow/" target="_blank"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                        <h5>kaptain.shiiqaalow</h5>
+                                    </div>
+
+                                </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 <img src="./assets/Saylac Super Market Logo/Favicon.png
+            " alt=""> Saylac Supermarket. All rights reserved.</p>
+                </div>
+            </footer>
+
+        </section>
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const mobileMenu = document.querySelector(".mobile-menu");
+            const icons = document.querySelectorAll("i");
+
+            hamburger.addEventListener("click", function (event) {
+                const isVisible = mobileMenu.getAttribute("data-visible");
+                if (isVisible == "true") {
+                    // qari hiding
+                    mobileMenu.setAttribute("data-visible", "false");
+                    icons[0].setAttribute("data-visible", "true");
+                    icons[1].setAttribute("data-visible", "false");
+                } else if (isVisible == "false") {
+                    // soo bandhig showing
+                    mobileMenu.setAttribute("data-visible", "true");
+                    icons[0].setAttribute("data-visible", "false");
+                    icons[1].setAttribute("data-visible", "true");
+                }
+            });
+        </script>
+
+</body>
+
+</html>

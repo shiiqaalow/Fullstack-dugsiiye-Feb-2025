@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Exercise#2-tailwind-css</title>
+</head>
+<body>
+
+    <div class="grid grid-cols-3 gap-5 bg-black p-5 capitalize text-white">
+        <!-- top -->
+        <div class="top bg-blue-700 px-5 py-10 col-span-3 rounded-3xl">
+            <h1>Featured Content</h1>
+            <span>this spans across all three columns</span>
+        </div>
+        <!--left -->
+        <div class="left bg-green-500 col-span-2 px-5 py-10 rounded-3xl">
+            <h1>left section</h1>
+            <span>takes up 2 columns</span>
+        </div>
+        <!--right -->
+        <div class="right bg-green-500 px-5 py-10 rounded-3xl">
+            <h1>right section</h1>
+            <span>takes up 1 column</span>
+        </div>
+        <!-- bottoms with same sizes -->
+        <div class="bottom-1 bg-purple-600 px-5 py-10  rounded-3xl">
+            <h1>column 1 </h1>
+            <span>equal width</span>
+        </div>
+        <div class="bottom-2 bg-purple-600 px-5 py-10  ml-4  rounded-3xl">
+            <h1>column 2 </h1>
+            <span>equal width</span>
+        </div>
+        <div class="bottom-3 bg-purple-600 px-5 py-10  ml-4  rounded-3xl">
+            <h1>column 3 </h1>
+            <span>equal width</span>
+        </div>
+    </div>
+    
+</body>
+</html>

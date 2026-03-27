@@ -1,0 +1,73 @@
+{
+  "register":{
+
+    "title": "Register",
+    "inputs": [
+      {
+        "type": "text",
+        "id": "username",
+        "label":"Username",
+        "required": true
+      },
+      {
+        "type": "email",
+        "id": "email",
+        "label":"Email",
+        "required": true
+      },
+      {
+        "type": "password",
+        "id": "password",
+        "label":"Password",
+        "required": true
+      },
+      {
+        "type": "password",
+        "id": "confirm-password",
+        "label":"confirm Password",
+        "required": true
+      }
+
+    ],
+
+    "button":
+      {
+        "type":"submit",
+        "id":"submit-btn",
+        "text":"Register"
+      },
+
+    "footer":{
+      "text":"Do you have an account already! Click here to <a href=\"#\">LogIn</a>",
+      "id":"register-footer"
+    }
+  },
+
+  
+  "login":{
+
+    "title":"LogIn",
+    "inputs":[
+      {
+        "type":"email",
+        "id":"email",
+        "required":true
+      },
+      {
+        "type":"password",
+        "id":"password",
+        "required":true
+      }
+    ],
+    "button":{
+      "type":"submit",
+      "id":"login-btn",
+      "text":"LogIn"
+
+    },
+      "footer": {
+      "text": "Don't have an account? <a href=\"#register\">Register here</a>",
+      "id":"login-footer"
+    }
+  }
+}

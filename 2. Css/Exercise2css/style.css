@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    background-color: grey;
+}
+h1 {
+    color:white;
+    font-family:sans-serif;
+    padding:50px;
+}
+h2 {
+    color:blue;
+    font-family:cursive;
+
+}
+
+p { 
+    color:rgb(235, 231, 16);
+    font-family: cursive;
+    font-size: larger;
+    }
+#fp {
+     color:rgb(83, 10, 105);
+     font-family: cursive;
+     font-size: larger;
+    
+}
+
+.favs {
+    color:orange;
+    
+}
+ul {
+    padding:10px;
+}
+.list {
+    padding:10px;
+}
+#li1{
+    color:aqua;
+    font-family: cursive;
+    font-size: larger;
+}
+#li2{
+    color:rgb(10, 221, 95);
+    font-family: cursive;
+    font-size: larger;
+}
+#li3{
+    color:rgb(22, 25, 25);
+    font-family: cursive;
+    font-size: larger;
+}
+#li4{
+    color:rgb(251, 90, 205);
+    font-family: cursive;
+    font-size: larger;
+}
+#li5{
+    color:rgb(219, 236, 236);
+    font-family: cursive;
+    font-size: larger;
+}

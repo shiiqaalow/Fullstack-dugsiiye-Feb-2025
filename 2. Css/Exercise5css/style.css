@@ -1,0 +1,11 @@
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 40px;
+}
+
+.important {
+    text-decoration: underline;
+}

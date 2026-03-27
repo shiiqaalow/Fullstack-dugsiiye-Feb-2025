@@ -1,0 +1,29 @@
+ .text-block {
+    background-color: aliceblue;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    margin: 15px;
+
+ }
+
+ #block1 {
+    padding:50px;
+    color:aqua;
+    background-color: black;
+ }
+
+ #block2 {
+    padding-bottom:30px;
+    padding-top: px;
+    color:rgb(215, 112, 10);
+    background-color: cyan;
+
+ }
+
+ #block3 {
+    padding:30px;
+    color:rgb(20, 198, 20);
+    background-color: yellow;
+
+ }

@@ -1,0 +1,25 @@
+
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f0f0;
+  margin-block: 5px;
+  padding-inline:10px;
+  border-radius:10px;
+}
+
+.li:hover {
+  background-color: #dfdddd;
+}
+
+
+.deleteBtn {
+  color: red;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}

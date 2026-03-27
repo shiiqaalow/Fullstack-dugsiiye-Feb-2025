@@ -1,0 +1,163 @@
+{
+  "home": {
+    "heroSection": {
+      "vidoSrc": "https://media.istockphoto.com/id/2216728262/video/young-woman-studying-using-augme,nted-reality-for-study-and-watching-a-virtual-class-at-home.mp4?s=mp4-640x640-is&k=20&c=qCclU1bLfavydMoMyJJs0mMwLdwCcgc_7EwoMbFmbas=",
+      "title": "Learn Anything, Anytime, Anywhere",
+      "subtitle": "Join thousands of learners upgrading their skills online",
+      "buttonText": "Browse Courses",
+      "buttonLink": "#courses"
+    },
+    "coursesSection": {
+      "title": "Our Popular Courses",
+      "courses": [
+        {
+          "id":1,
+          "img": "https://i.ytimg.com/vi/I3K5ESK06Ro/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB4H5l2yKEm5kwgMVzaNvBw2mY8Fw",
+          "title": "Web Development",
+          "description": "Learn HTML, CSS, JavaScript and build real websites from scratch.",
+          "price":"$300",
+          "video": "https://youtu.be/wUH0FbkI1Go",
+          "duration":"1hour",
+          "rating":4.5
+        },
+        {
+          "id":2,
+          "img": "https://i.ytimg.com/vi/aGjvA7p0WC0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZBsQJ6HdMCtIYoY2NG-Zkvt8Rdw",
+          "title": "JavaScript Mastery",
+          "description": "Deep dive into JavaScript, ES6+, DOM, and real-world projects.",
+          "price":"$400",
+          "video": "https://youtu.be/wUH0FbkI1Go",
+          "duration":"1.3hour",
+          "rating":4.5
+        },
+        {
+          "id":3,
+          "img": "https://i.ytimg.com/vi/FLCVd8tJA2U/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBbKKuma8Y-FNFBinfhCmbF6AhDDQ",
+          "title": "Python for Beginners",
+          "description": "Start coding with Python. Easy syntax, powerful outcomes.",
+          "price":"$450",
+        "video": "https://youtu.be/wUH0FbkI1Go",
+        "duration":"1.5hour",
+        "rating":4.5
+        },
+          {
+          "id":4,
+          "img": "https://i.ytimg.com/vi/aGjvA7p0WC0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZBsQJ6HdMCtIYoY2NG-Zkvt8Rdw",
+          "title": "JavaScript Mastery",
+          "description": "Deep dive into JavaScript, ES6+, DOM, and real-world projects.",
+          "price":"$500",
+        "video": "https://youtu.be/wUH0FbkI1Go",
+        "duration":"1.3hour",
+        "rating":4.5
+        }
+      ]
+    }
+  },
+  "courses": {
+    "title": "All Courses",
+    "courses": [
+       {
+          "id":1,
+          "img": "https://i.ytimg.com/vi/I3K5ESK06Ro/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB4H5l2yKEm5kwgMVzaNvBw2mY8Fw",
+          "title": "Web Development",
+          "description": "Learn HTML, CSS, JavaScript and build real websites from scratch.",
+          "price":"$300",
+          "video": "https://youtu.be/wUH0FbkI1Go",
+          "duration":"1hour",
+          "rating":4.5
+        },
+        {
+          "id":2,
+          "img": "https://i.ytimg.com/vi/aGjvA7p0WC0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZBsQJ6HdMCtIYoY2NG-Zkvt8Rdw",
+          "title": "JavaScript Mastery",
+          "description": "Deep dive into JavaScript, ES6+, DOM, and real-world projects.",
+          "price":"$400",
+          "video": "https://youtu.be/wUH0FbkI1Go",
+          "duration":"1.3hour",
+          "rating":4.5
+        },
+        {
+          "id":3,
+          "img": "https://i.ytimg.com/vi/FLCVd8tJA2U/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBbKKuma8Y-FNFBinfhCmbF6AhDDQ",
+          "title": "Python for Beginners",
+          "description": "Start coding with Python. Easy syntax, powerful outcomes.",
+          "price":"$450",
+        "video": "https://youtu.be/wUH0FbkI1Go",
+        "duration":"1.5hour",
+        "rating":4.5
+        },
+          {
+          "id":4,
+          "img": "https://i.ytimg.com/vi/aGjvA7p0WC0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZBsQJ6HdMCtIYoY2NG-Zkvt8Rdw",
+          "title": "JavaScript Mastery",
+          "description": "Deep dive into JavaScript, ES6+, DOM, and real-world projects.",
+          "price":"$500",
+        "video": "https://youtu.be/wUH0FbkI1Go",
+        "duration":"1.3hour",
+        "rating":4.5
+        },
+      {
+        "id":5,
+        "img": "https://media.istockphoto.com/id/2173915109/photo/skill-competency-development-concept-up-new-ability-skill-training-for-technology-evolution.jpg?s=612x612&w=0&k=20&c=xjzDpZbVEdCXCOUqM6JzqVf8XmkK46vu05JwTc3QU8U=",
+        "title": "AI & Machine Learning",
+        "price":"$550",
+        "description": "Explore the world of AI with hands-on projects and practical applications."
+      },
+      {
+        "id":6,
+        "img": "https://media.istockphoto.com/id/2188554976/photo/business-team-brainstorming.jpg?s=612x612&w=0&k=20&c=anIwFtizmm_pDa_8NhTk-DtuOSYbbKVCewzcKDGaWyI=",
+        "title": "Backend Development",
+        "price":"$600",
+        "description": "Learn Node.js, Express, and MongoDB to build powerful APIs.",
+        "duration":"2hour",
+        "rating":4.5
+      },
+      {
+        "id":7,
+        "img": "https://media.istockphoto.com/id/2198836359/photo/i-want-to-ask-a-question.jpg?s=612x612&w=0&k=20&c=pJdlDj-mRkZlDWJwf6jHd2f37EeGnzjEr1yeYPpeyhE=",
+        "title": "Cloud Computing",
+        "price":"$650",
+        "description": "Get started with AWS, Azure, and cloud infrastructure basics.",
+        "duration":"2.5hour",
+        "rating":4.5
+      },
+      {
+        "id":8,
+        "img": "https://media.istockphoto.com/id/2198836359/photo/i-want-to-ask-a-question.jpg?s=612x612&w=0&k=20&c=pJdlDj-mRkZlDWJwf6jHd2f37EeGnzjEr1yeYPpeyhE=",
+        "title": "Cloud Computing",
+        "price":"$700",
+        "description": "Get started with AWS, Azure, and cloud infrastructure basics.",
+        "duration":"2.5hour",
+        "rating":4.5
+      }
+    ]
+  },
+
+  "learn": {
+    "banner": {
+      "title": "Start Learning Today",
+      "subtitle": "Browse curated lessons, tutorials, and resources.",
+      "image": "images/learn-banner.jpg"
+    },
+    "topics": [
+      {
+        "title": "Web Development",
+        "description": "Master HTML, CSS, JavaScript, and modern frameworks.",
+        "image": "images/web-dev.jpg"
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Learn design principles, tools, and user research.",
+        "image": "images/ui-ux.jpg"
+      },
+      {
+        "title": "Data Science",
+        "description": "Explore data analysis, visualization, and machine learning.",
+        "image": "images/data-science.jpg"
+      }
+    ]
+  }
+
+
+
+}

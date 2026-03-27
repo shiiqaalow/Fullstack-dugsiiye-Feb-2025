@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#36</title>
+    <style>
+        /* body{
+            background-color: rgb(168, 196, 8);
+        }
+        select{
+            background-color: aqua;
+        } */
+
+        .valid {
+            border: 2px solid green;
+        }
+        .invalid {
+            border: 2px solid red;
+        }
+
+        input {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>clickHere</h1>
+    <button class="btn1">Add</button>
+    <button class="btn2">Remove</button> -->
+
+    <!-- <span> Pick a color: </span>
+    <select name="color" id="color">
+        <option value="yellow">Yellow</option>
+        <option value="Tomato">Tomato</option>
+        <option value="Orange">Orange</option>
+    </select>
+    <p id="selectedColor">Selected Color:None</p> -->
+
+    <form id="form" action="">
+        <label for="" id="label">Username:</label><br>
+        <input type="text" id="username"><br>
+        <label for="" id="label">Email:</label><br>
+        <input type="text" id="Email"><br>
+        <label for="" id="label">Password:</label><br>
+        <input type="password" id="password"><br>
+        <label for="" id="label">Cornfirm Password:</label><br>
+        <input type="password" id="confirmPassword"><br>
+
+        <button style="margin-top: 1rem; padding: .5rem 3rem;" type="submit" class="btn">Register</button>
+
+        <p id="error" style="color:red;"></p>
+        <p id="success" style="color:green;"></p>
+    </form>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

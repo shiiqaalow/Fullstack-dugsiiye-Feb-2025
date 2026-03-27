@@ -1,0 +1,29 @@
+.fixed-navbar {
+    position: fixed;
+    top: 0;  /* Anchor the navbar to the top of the screen */
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .fixed-navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  /*exercise13#css added footer  */
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    font-size: x-large;
+}
+
+.fixed-footer a {
+    text-decoration: none;
+}

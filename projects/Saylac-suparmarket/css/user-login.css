@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1360px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+body {
+  font-family: "Anybody", sans-serif;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo .logo-text span {
+  color: #1e90ff;
+}
+
+header .logo .logo-text span#logo-last-name {
+  color: black;
+}
+
+header {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(10px);
+}
+
+.form-container {
+  width: 40%;
+  margin: 60px auto;
+  text-align: center;
+  position: relative;
+}
+
+.form {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  pointer-events: none;
+}
+
+.form.active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.link-accounts img {
+  width: 20px;
+}
+
+.link-accounts {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 2rem;
+}
+
+.link-accounts div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border: 2px solid #838282;
+  background: #efeded;
+  padding: 0.5rem;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+.link-accounts div:hover {
+  transform: translateY(-7px);
+  background: #d7d3d3;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #666;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.input-group.password-group {
+  position: relative;
+}
+
+.input-group .toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #999;
+}
+
+p#p-or {
+  padding-top: 2rem;
+  font-weight: 800;
+}
+p#p {
+  text-align: start;
+}
+
+.form button[type="submit"] {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.form button:hover {
+  background-color: #006ad1;
+}
+
+.form p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form p button {
+  background: none;
+  color: #1e90ff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media (min-width: 651px) and (max-width: 1100px) {
+  .form-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 650px) {
+  .form-container {
+    width: 98%;
+  }
+}

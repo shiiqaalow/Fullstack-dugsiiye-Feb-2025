@@ -1,0 +1,27 @@
+.feature-section {
+    background-color:rgb(155, 210, 28);
+    background-image: url(https://media.istockphoto.com/id/141944385/photo/laptops.jpg?s=612x612&w=0&k=20&c=qqWhcSA5ZJofpOvyLuyMcZTQU5Ew9Ebadk3u8iPVQVU=);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: rgb(255, 255, 255);    
+    border: 2px solid red;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder; 
+    color: aqua;   
+}
+
+p {
+    font-family: fantasy;
+    color: aqua;
+    font-size: small;
+    font-weight: 20px
+}

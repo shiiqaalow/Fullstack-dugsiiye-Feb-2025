@@ -1,0 +1,18 @@
+.media-player {
+    display: flex;
+    padding: 50px;
+}
+
+.control-button {
+    box-shadow: white;
+    box-shadow: 0.2px 3px 4px;
+    margin: 20px;
+    font-size: xx-large;
+    flex: 1;
+
+}
+
+ .play {
+    flex: 2;
+    
+}
