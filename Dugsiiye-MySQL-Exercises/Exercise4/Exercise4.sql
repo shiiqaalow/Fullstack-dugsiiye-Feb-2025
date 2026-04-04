@@ -5,7 +5,6 @@ create table Dugsiiye (
 	score int
 )
 
-
 INSERT INTO university.Dugsiiye (name, email, score) VALUES
     ('Ali', 'ali@gmail.com', 85),
     ('Amina', 'amina@yahoo.com', 90),
