@@ -1,0 +1,556 @@
+
+const data = {
+    "languages": [
+        {
+            "code": "af",
+            "name": "Afrikaans"
+        },
+        {
+            "code": "sq",
+            "name": "Albanian"
+        },
+        {
+            "code": "am",
+            "name": "Amharic"
+        },
+        {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        {
+            "code": "hy",
+            "name": "Armenian"
+        },
+        {
+            "code": "az",
+            "name": "Azerbaijani"
+        },
+        {
+            "code": "eu",
+            "name": "Basque"
+        },
+        {
+            "code": "be",
+            "name": "Belarusian"
+        },
+        {
+            "code": "bn",
+            "name": "Bengali"
+        },
+        {
+            "code": "bs",
+            "name": "Bosnian"
+        },
+        {
+            "code": "bg",
+            "name": "Bulgarian"
+        },
+        {
+            "code": "ca",
+            "name": "Catalan"
+        },
+        {
+            "code": "ceb",
+            "name": "Cebuano"
+        },
+        {
+            "code": "ny",
+            "name": "Chichewa"
+        },
+        {
+            "code": "zh-CN",
+            "name": "Chinese (Simplified)"
+        },
+        {
+            "code": "zh-TW",
+            "name": "Chinese (Traditional)"
+        },
+        {
+            "code": "co",
+            "name": "Corsican"
+        },
+        {
+            "code": "hr",
+            "name": "Croatian"
+        },
+        {
+            "code": "cs",
+            "name": "Czech"
+        },
+        {
+            "code": "da",
+            "name": "Danish"
+        },
+        {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        {
+            "code": "en",
+            "name": "English"
+        },
+        {
+            "code": "eo",
+            "name": "Esperanto"
+        },
+        {
+            "code": "et",
+            "name": "Estonian"
+        },
+        {
+            "code": "tl",
+            "name": "Filipino"
+        },
+        {
+            "code": "fi",
+            "name": "Finnish"
+        },
+        {
+            "code": "fr",
+            "name": "French"
+        },
+        {
+            "code": "fy",
+            "name": "Frisian"
+        },
+        {
+            "code": "gl",
+            "name": "Galician"
+        },
+        {
+            "code": "ka",
+            "name": "Georgian"
+        },
+        {
+            "code": "de",
+            "name": "German"
+        },
+        {
+            "code": "el",
+            "name": "Greek"
+        },
+        {
+            "code": "gu",
+            "name": "Gujarati"
+        },
+        {
+            "code": "ht",
+            "name": "Haitian Creole"
+        },
+        {
+            "code": "ha",
+            "name": "Hausa"
+        },
+        {
+            "code": "haw",
+            "name": "Hawaiian"
+        },
+        {
+            "code": "iw",
+            "name": "Hebrew"
+        },
+        {
+            "code": "hi",
+            "name": "Hindi"
+        },
+        {
+            "code": "hmn",
+            "name": "Hmong"
+        },
+        {
+            "code": "hu",
+            "name": "Hungarian"
+        },
+        {
+            "code": "is",
+            "name": "Icelandic"
+        },
+        {
+            "code": "ig",
+            "name": "Igbo"
+        },
+        {
+            "code": "id",
+            "name": "Indonesian"
+        },
+        {
+            "code": "ga",
+            "name": "Irish"
+        },
+        {
+            "code": "it",
+            "name": "Italian"
+        },
+        {
+            "code": "ja",
+            "name": "Japanese"
+        },
+        {
+            "code": "jw",
+            "name": "Javanese"
+        },
+        {
+            "code": "kn",
+            "name": "Kannada"
+        },
+        {
+            "code": "kk",
+            "name": "Kazakh"
+        },
+        {
+            "code": "km",
+            "name": "Khmer"
+        },
+        {
+            "code": "rw",
+            "name": "Kinyarwanda"
+        },
+        {
+            "code": "ko",
+            "name": "Korean"
+        },
+        {
+            "code": "ku",
+            "name": "Kurdish (Kurmanji)"
+        },
+        {
+            "code": "ky",
+            "name": "Kyrgyz"
+        },
+        {
+            "code": "lo",
+            "name": "Lao"
+        },
+        {
+            "code": "la",
+            "name": "Latin"
+        },
+        {
+            "code": "lv",
+            "name": "Latvian"
+        },
+        {
+            "code": "lt",
+            "name": "Lithuanian"
+        },
+        {
+            "code": "lb",
+            "name": "Luxembourgish"
+        },
+        {
+            "code": "mk",
+            "name": "Macedonian"
+        },
+        {
+            "code": "mg",
+            "name": "Malagasy"
+        },
+        {
+            "code": "ms",
+            "name": "Malay"
+        },
+        {
+            "code": "ml",
+            "name": "Malayalam"
+        },
+        {
+            "code": "mt",
+            "name": "Maltese"
+        },
+        {
+            "code": "mi",
+            "name": "Maori"
+        },
+        {
+            "code": "mr",
+            "name": "Marathi"
+        },
+        {
+            "code": "mn",
+            "name": "Mongolian"
+        },
+        {
+            "code": "my",
+            "name": "Myanmar (Burmese)"
+        },
+        {
+            "code": "ne",
+            "name": "Nepali"
+        },
+        {
+            "code": "no",
+            "name": "Norwegian"
+        },
+        {
+            "code": "or",
+            "name": "Odia (Oriya)"
+        },
+        {
+            "code": "ps",
+            "name": "Pashto"
+        },
+        {
+            "code": "fa",
+            "name": "Persian"
+        },
+        {
+            "code": "pl",
+            "name": "Polish"
+        },
+        {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        {
+            "code": "pa",
+            "name": "Punjabi"
+        },
+        {
+            "code": "ro",
+            "name": "Romanian"
+        },
+        {
+            "code": "ru",
+            "name": "Russian"
+        },
+        {
+            "code": "sm",
+            "name": "Samoan"
+        },
+        {
+            "code": "gd",
+            "name": "Scots Gaelic"
+        },
+        {
+            "code": "sr",
+            "name": "Serbian"
+        },
+        {
+            "code": "st",
+            "name": "Sesotho"
+        },
+        {
+            "code": "sn",
+            "name": "Shona"
+        },
+        {
+            "code": "sd",
+            "name": "Sindhi"
+        },
+        {
+            "code": "si",
+            "name": "Sinhala"
+        },
+        {
+            "code": "sk",
+            "name": "Slovak"
+        },
+        {
+            "code": "sl",
+            "name": "Slovenian"
+        },
+        {
+            "code": "so",
+            "name": "Somali"
+        },
+        {
+            "code": "es",
+            "name": "Spanish"
+        },
+        {
+            "code": "su",
+            "name": "Sundanese"
+        },
+        {
+            "code": "sw",
+            "name": "Swahili"
+        },
+        {
+            "code": "sv",
+            "name": "Swedish"
+        },
+        {
+            "code": "tg",
+            "name": "Tajik"
+        },
+        {
+            "code": "ta",
+            "name": "Tamil"
+        },
+        {
+            "code": "tt",
+            "name": "Tatar"
+        },
+        {
+            "code": "te",
+            "name": "Telugu"
+        },
+        {
+            "code": "th",
+            "name": "Thai"
+        },
+        {
+            "code": "tr",
+            "name": "Turkish"
+        },
+        {
+            "code": "tk",
+            "name": "Turkmen"
+        },
+        {
+            "code": "uk",
+            "name": "Ukrainian"
+        },
+        {
+            "code": "ur",
+            "name": "Urdu"
+        },
+        {
+            "code": "ug",
+            "name": "Uyghur"
+        },
+        {
+            "code": "uz",
+            "name": "Uzbek"
+        },
+        {
+            "code": "vi",
+            "name": "Vietnamese"
+        },
+        {
+            "code": "cy",
+            "name": "Welsh"
+        },
+        {
+            "code": "xh",
+            "name": "Xhosa"
+        },
+        {
+            "code": "yi",
+            "name": "Yiddish"
+        },
+        {
+            "code": "yo",
+            "name": "Yoruba"
+        },
+        {
+            "code": "zu",
+            "name": "Zulu"
+        },
+        {
+            "code": "he",
+            "name": "Hebrew"
+        },
+        {
+            "code": "zh",
+            "name": "Chinese (Simplified)"
+        }
+    ]
+}
+// fetching  All the tlanguages
+
+document.querySelector(".form").addEventListener("submit",async function(e){
+    e.preventDefault();
+
+    const selectFrom = document.querySelector(".select-from").value;
+    const selectTo = document.querySelector(".select-to").value;
+    const text = document.querySelector(".textarea").value;
+
+    const url = `https://text-translator2.p.rapidapi.com/getLanguages`;
+
+    const options = {
+        method: "GET",
+        headers: {
+            "x-rapidapi-key": "7fda873889msh19464de9555d5f1p1443d7jsn82b0ae898f5d",
+            "x-rapidapi-host": "text-translator2.p.rapidapi.com"
+        }
+    }
+
+    try{
+        
+        displayLanguages(data.languages)
+    }
+    catch(err){
+        console.error("failed feching  data languages",err)
+    }
+
+    displayTranslatedText()
+    
+
+})
+
+function displayLanguages(languages){
+    const selectFrom = document.querySelector(".select-to");
+    const selectTo = document.querySelector(".select-from");
+    languages.forEach(language=>{
+        const option1 = document.createElement("option");
+        option1.textContent = language.name
+    selectFrom.appendChild(option1)
+
+        const option2 = document.createElement("option");
+        option2.textContent = language.name
+    selectTo.appendChild(option2)
+    })
+
+}
+
+const select = document.querySelector(".select-from")
+
+select.addEventListener("click",function(){
+    if(select!==""){
+        displayLanguages(data.languages)
+    }
+
+        const url = "https://text-translator2.p.rapidapi.com/translate"
+
+    const options = {
+        method:"POST",
+        headers:{
+            "x-rapidapi-key": "7fda873889msh19464de9555d5f1p1443d7jsn82b0ae898f5d",
+            "x-rapidapi-host": "text-translator2.p.rapidapi.com"
+        },
+         body: new URLSearchParams({
+		      source_language: selectFrom,
+		      target_language: selectTo,
+		      text: text
+	})
+    }
+
+    try{
+        // const response = await fetch(url,options);
+        // const result = await response.json();
+        console.log(Data);
+        displayTranslatedText(Data.translatedText)
+    }
+    catch(err){
+        console.error("failed to translate the language",err)
+    }
+
+
+
+
+})
+
+// translating   All the tlanguages is being fetched
+
+const Data = {
+    "status": "success",
+    "data": {
+        "translatedText": "Quel est ton nom?"
+    }
+}
+
+
+
+
+
+function displayTranslatedText(text){
+    const displayTranslation = document.querySelector(".display-translated-text")
+
+    const paragraph = document.createElement("p");
+    paragraph.textContent = text.value;
+
+    displayTranslation.appendChild(paragraph);
+    // text.textContent = input.value
+    console.log(paragraph)
+}

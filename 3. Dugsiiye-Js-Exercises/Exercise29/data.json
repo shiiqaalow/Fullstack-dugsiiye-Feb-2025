@@ -1,0 +1,10 @@
+
+{
+    "id": 1,
+    "name": "shiiqaalow",
+    "city": "cape-town",
+    "oders": [
+        { "id": 1, "product":"mobile", "quantity":4 },
+        { "id": 2, "product":"ipads", "quantity":5 }
+    ]
+}

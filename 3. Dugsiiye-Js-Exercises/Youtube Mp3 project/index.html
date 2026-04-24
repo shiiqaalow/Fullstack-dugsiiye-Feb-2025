@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outube Mp3 Downloader</title>
+    <link rel="stylesheet" href="./youtubeMp3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="youtube">
+            <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <h1>YouTube Channel</h1>
+        </div>
+        <form class="form">
+            <input type="text" id="input">
+            <btn type="submit" class="btn">Search</btn>
+        </form>
+        </div>
+      
+        <div class="video-List">
+          
+        </div>
+
+        <div id="video-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal">&times;</span>
+                <iframe id="video-player" frameborder="0" allowfullscreen></iframe>
+                <button id="download-mp3">Download as MP3</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="./youtube.js"></script>
+</body>
+</html>
