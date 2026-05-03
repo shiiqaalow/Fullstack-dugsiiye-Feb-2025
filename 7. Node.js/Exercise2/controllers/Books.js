@@ -1,6 +1,6 @@
-const Book = require('../models/booksDB')
+import Book from '../models/booksDB.js'
 // create new books 
-exports.createBooks = async (req,res) => {
+export const createBooks = async (req,res) => {
     const data = req.body
     try{
         // validation book title 
@@ -31,7 +31,7 @@ exports.createBooks = async (req,res) => {
 
 }
 // find single book
-exports.getBooksById = async (req,res) => {
+export const getBooksById = async (req,res) => {
     const id = req.params.id
     try{
         const book = await Book.findById(id)
@@ -43,7 +43,7 @@ exports.getBooksById = async (req,res) => {
     }
 }
 // get all books
-exports.getAllBooks = async (req,res) => {
+export const getAllBooks = async (req,res) => {
     try{
         const books = await Book.find()
         if(!books)
@@ -55,7 +55,7 @@ exports.getAllBooks = async (req,res) => {
    
 }
 // update books
-exports.updateBooks = async (req,res) => {
+export const updateBooks = async (req,res) => {
     const id = req.params.id
     const data = req.body
     try{
@@ -70,7 +70,7 @@ exports.updateBooks = async (req,res) => {
 }
 
 // delete books
-exports.deleteBooks = async (req,res) => {
+export const deleteBooks = async (req,res) => {
     const id = req.params.id
     try{
         const deletedBooks = await Book.findByIdAndDelete(id)

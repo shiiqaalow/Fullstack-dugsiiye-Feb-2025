@@ -1,31 +1,42 @@
-// Dependences installed for the project
-const express = require('express')
-const morgan = require('morgan')
-const cors = require('cors')
-const dotenv = require('dotenv').config()
-const mongoose = require('mongoose')
-// the app that runs the web
+import express from 'express'
+import morgan from 'morgan'
+import cors from 'cors'
+import dotenv from 'dotenv'
+import mongoose from 'mongoose'
+import booksRouter from './routes/BooksRouter.js'
+
+// load environment variables first
+dotenv.config()
+
+// create express app
 const app = express()
-// the router/link runs with the app
-const booksRouter = require('./routes/BooksRouter')
+
+// config values
+const PORT = process.env.PORT || 7000
+const MONGODB_URL = process.env.MONGODB_URL
+
+// global middleware
 app.use(morgan('combined'))
 
 app.use(cors({
-    origin: ["http://localhost:5879"]
+  origin: ['http://localhost:5879']
 }))
 
-mongoose.connect(process.env.MONGODB_URL)
-    .then(() => console.log('✅ MONGODB CONNECTED LOCALLY: =>',process.env.MONGODB_URL))
-    .catch((err) => console.log('MONGODB CONNECTION ERROR.',err))
-
-const port = process.env.PORT
-
-
 app.use(express.json())
-app.use('/books',booksRouter)
 
-console.log(process.env.PORT)
+// routes
+app.use('/books', booksRouter)
 
-app.listen(port,() => {
-    console.log(`Server is running on http://localhost:${port} site`)
+// database connection
+mongoose.connect(MONGODB_URL)
+  .then(() => {
+    console.log('✅ MongoDB connected:', MONGODB_URL)
+  })
+  .catch((err) => {
+    console.log('❌ MongoDB connection error:', err)
+  })
+
+// start server
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`)
 })

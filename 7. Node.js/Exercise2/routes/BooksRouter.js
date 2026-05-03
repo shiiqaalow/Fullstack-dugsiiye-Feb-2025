@@ -1,5 +1,5 @@
-const express = require('express')
-const { getAllBooks, getBooksById, createBooks, updateBooks, deleteBooks } = require('../controllers/Books')
+import express from 'express'
+import { getAllBooks, getBooksById, createBooks, updateBooks, deleteBooks } from '../controllers/Books.js'
 console.log('Express:=>',express)
 const router = express.Router()
 
@@ -9,4 +9,4 @@ router.post('/createBook',createBooks)
 router.put('/:id',updateBooks)
 router.delete('/:id',deleteBooks)
 
-module.exports = router
+export default router
