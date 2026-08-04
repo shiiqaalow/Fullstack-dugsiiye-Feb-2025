@@ -1,0 +1,9 @@
+// 1: create a welcome component it should accept #username: string and #isPremium: boolean  show a welcome message that says  "Welcome back , premium user! " or " welcome,guest"
+
+// 2: create a productCard component @props: #name: string #price: number    #description: string
+
+// 3: use type instead of interface for productcard component
+
+// 4: Break on purpose #Try passing the wrong type (e.g #price: "free" instead of number) #Confirm that TypeScript catches immediately.
+
+
