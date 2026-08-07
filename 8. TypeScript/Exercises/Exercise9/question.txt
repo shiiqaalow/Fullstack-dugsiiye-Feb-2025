@@ -1,0 +1,17 @@
+1: Create a component EmailForm
+    #props: onSubmit(email: string): void
+    #state: email: string
+    #call the props on submit
+
+2: Create a component AgeForm
+    #props: onSubmit(age: number): void
+    #state: age: number
+    #prevent submit if the age < 18
+
+3: Create a component ContactForm
+    #form with name and email
+    #state: {name: string, email: string} 
+    #props: onSubmit(data: {name: string; email: string}): void
+    
+
+    ===== THE CODE IS WRITTEN IN THE ( /react-vite/scr/APP.tsx ) component ======

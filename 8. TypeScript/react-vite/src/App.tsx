@@ -1,11 +1,31 @@
-import { Welcome } from "../../Exercises/Exercise7/Welcome"
-import { ProductCard } from "../../Exercises/Exercise7/ProductCard"
+import { AgeForm } from "./AgeForm"
+import { ContactForm } from "./ContactForm"
+import { EmailForm } from "./EmailForm"
+
 function App() {
+  const handleEmailSubmit = (email: string) => {
+    console.log('Email submitted:',email.toUpperCase())
+  }
+  const handleAgeSubmit = (age: number) => {
+    console.log('age submitted:', age)
+  }
+
+
+  const handleFormSubmit = (data: {name: string,email:string}) => {
+    console.log('Form submitted:', data)
+  }
+
   return (
-    <>
-      <Welcome userName='shiiqaalow' isPremium={true} />
-      <ProductCard name='popcorn' price='free' description='Delicious air-popped popcorn' />
-    </>
+    <div className="app-container">
+      {/* App */}
+      <div className="app-components">
+        <EmailForm onSubmit={handleEmailSubmit} />
+        <AgeForm onSubmit={handleAgeSubmit} />
+      </div>
+      <div className="app-form">
+        <ContactForm onSubmit={handleFormSubmit} />
+      </div>
+    </div>
   )
 }
 
