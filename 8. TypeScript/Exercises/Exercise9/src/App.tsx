@@ -1,6 +1,6 @@
-import { AgeForm } from "./AgeForm"
-import { ContactForm } from "./ContactForm"
-import { EmailForm } from "./EmailForm"
+import { AgeForm } from "./components/AgeForm"
+import { ContactForm } from "./components/ContactForm"
+import { EmailForm } from "./components/EmailForm"
 
 function App() {
   const handleEmailSubmit = (email: string) => {
