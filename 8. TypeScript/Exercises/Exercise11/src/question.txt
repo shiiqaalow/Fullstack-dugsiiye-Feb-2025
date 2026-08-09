@@ -1,0 +1,20 @@
+## 🏋️‍♂️ **Student Exercises**
+
+### 1. 🧪 Create a `/goodbye` route
+
+- Use a controller `sayGoodbye`
+- Accept a query param `name` (string)
+- Return: `{ farewell: "Goodbye, {name}" }`
+
+---
+
+### 2. 🧱 Type Your Query
+
+- Create a custom request type that ensures `req.query.name` is always a string
+- Use it in your controller function
+
+---
+
+### 3. ⚠️ Handle Missing Param
+
+- Return a 400 error if `name` is missing or not a string
