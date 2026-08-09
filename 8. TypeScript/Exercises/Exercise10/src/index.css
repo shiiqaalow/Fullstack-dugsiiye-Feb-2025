@@ -1,0 +1,125 @@
+/* index.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background-color: #f4f5f7;
+  color: #1f2933;
+}
+
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e4e9;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.card-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Score */
+
+.score-display {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Settings */
+
+.settings-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eef0f3;
+  font-size: 0.95rem;
+}
+
+.settings-row:last-of-type {
+  border-bottom: none;
+  margin-bottom: 1rem;
+}
+
+.settings-label {
+  color: #6b7280;
+}
+
+.settings-value {
+  font-weight: 500;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.badge-on {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-off {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Buttons */
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.05s ease;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: #fff;
+  margin-right: 50px
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-secondary {
+  background-color: #e5e7eb;
+  color: #1f2933;
+}
+
+.btn-secondary:hover {
+  background-color: #d1d5db;
+}
+
+#btn {
+  background-color: #3b82f6;
+  color: #fff;
+  margin-right: 20px
+}
