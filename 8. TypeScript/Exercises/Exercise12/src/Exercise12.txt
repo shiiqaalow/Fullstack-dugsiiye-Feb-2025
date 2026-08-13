@@ -1,0 +1,26 @@
+## 🏋️‍♂️ Student Exercises
+
+### 1. Create a `LoginBody` type
+
+- Fields: `email: string`, `password: string`
+- Use it in a `loginUser` controller
+- If any field is missing, return `400 Bad Request`
+
+---
+
+### 2. Typing a GET route with query
+
+- Route: `/products?page=1&limit=10`
+- Create a `ProductQuery` type
+- Respond with `Page X with Y items`
+
+---
+
+### 3. Typing a route with `params + body`
+
+- Route: `PUT /products/:id`
+- Params: `id: string`
+- Body: `{ name: string, price: number }`
+- Log both values in the response
+
+---
